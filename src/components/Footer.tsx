@@ -58,7 +58,6 @@ export const Footer: React.FC<FooterProps> = ({ onScrollToTop, onOpenTerminal })
         {/* Copyright Note */}
         <div className="mt-8 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-slate-500 font-mono">
           <p>© {new Date().getFullYear()} Pavel Hossain. All rights reserved.</p>
-          <p>Engineered with High Contrast Dark Theme & Electric Cyan Accents.</p>
         </div>
       </div>
     </footer>
